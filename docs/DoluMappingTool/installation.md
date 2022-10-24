@@ -21,4 +21,4 @@ If you want to build the project yourself, you can refer to **[](http://localhos
   ensure DoluMappingTool
 ```
 
-You can now go to **[configuration](http://localhost:3000/docs/DoluMappingTool/configuration)**
+You can now go to **[configuration](https://dolutattoo.github.io/docs/DoluMappingTool/configuration)**

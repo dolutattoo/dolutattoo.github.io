@@ -21,4 +21,4 @@ Si vous souhaitez compiler le projet vous-même, veuillez vous référer à **[D
   ensure DoluMappingTool
 ```
 
-Vous pouvez maintenant vous diriger vers la **[configuration](http://localhost:3000/docs/DoluMappingTool/configuration)**
+Vous pouvez maintenant vous diriger vers la **[configuration](https://dolutattoo.github.io/fr/docs/DoluMappingTool/configuration)**
