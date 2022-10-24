@@ -1,10 +1,9 @@
 ---
+title: Home
 sidebar_position: 1
 ---
 
-# Introduction
-
-Welcome to Dolu scripts documentation.
+# Home
 
 Here you can find all informations about how to use or configure Dolu's scripts
 
