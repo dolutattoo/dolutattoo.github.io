@@ -1,10 +1,10 @@
 ---
-sidebar_position: 2
+sidebar_position: 4
 ---
 
 # Développement
 
-Les étapes suivante vous demanderont certaines connaissances mais vous aurez toute les options récentes et expérimentales.
+Les étapes suivantes vous demanderont certaines connaissances mais vous aurez accès aux fonctionnalités récentes et expérimentales.
 
 **Vous aurez tout de même besoin de la dépendance [ox_lib](https://github.com/overextended/ox_lib/releases/latest) !**
 
@@ -14,7 +14,7 @@ Les étapes suivante vous demanderont certaines connaissances mais vous aurez to
 - **[pnpm](https://pnpm.io/installation)**
 
 ### Installation des dépendences & Mise en place
-Clonez le dépot dans votre dossier resources sous le nom `DoluMappingTool`.
+Clonez le dépot git dans votre dossier resources sous le nom `DoluMappingTool`.
 ```
 git clone https://github.com/dolutattoo/DoluMappingTool.git
 ```
@@ -30,13 +30,13 @@ pnpm i
 
 ### Compiler le NUI
 
-Pour compiler le NUI, executer cette commande depuis le dossier `DoluMappingTool/web`:
+Pour compiler le NUI, executez cette commande depuis le dossier `DoluMappingTool/web`:
 ```
 pnpm build
 ```
 
 ### Ecouter les fichiers
-Si vous ne souhaitez pas recompiler à chaque changements, vous pouvez également écouter les fichiers dès qu'ils sont sauvegardés après modification.
+Si vous ne souhaitez pas recompiler après chaque modifications, vous pouvez également écouter les fichiers dès qu'ils sont sauvegardés.
 ```
 pnpm start:game
 ```

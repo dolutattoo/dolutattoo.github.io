@@ -1,12 +1,13 @@
 ---
-sidebar_position: 3
+sidebar_position: 5
 ---
 
 # Credits
 
-Cette ressource ne serait rien sans la précisue aide de:
+Cette ressource ne serait rien sans aide.
+
+Merci à
 - **[AnthonyTCS](https://github.com/AnthonyTCS)**,
 - **[Tiwabs](https://github.com/Tiwabs)**,
-- **[Lentokone](https://github.com/Aik-10)**
-
-Merci beaucoup à vous !
+- **[Lentokone](https://github.com/Aik-10)**,
+- **[Luke](https://github.com/Lukewastakenn)**
