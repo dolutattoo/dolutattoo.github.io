@@ -1,0 +1,42 @@
+---
+sidebar_position: 2
+---
+
+# Development
+
+The next steps will require some knowledges but provides you all latest and experimental features.
+
+**You still need to install [ox_lib](https://github.com/overextended/ox_lib/releases/latest) dependency!**
+
+### Prerequisites
+- **[Git](https://git-scm.com/)**,
+- **[Node](https://nodejs.org/en/)** (LTS),
+- **[pnpm](https://pnpm.io/installation)**
+
+### Installing Dependencies & Setup
+Clone the repository into your resources folder with the name `DoluMappingTool`.
+```
+git clone https://github.com/dolutattoo/DoluMappingTool.git
+```
+
+Navigate to `DoluMappingTool/web` folder and install dependencies for NUI.
+
+```
+cd ./web
+```
+```
+pnpm i
+```
+
+### Building NUI
+
+To build the NUI, run this from `DoluMappingTool/web` folder:
+```
+pnpm build
+```
+
+### Watching files
+If you don't want to rebuild all the time, you can also watch files which will write to disk.
+```
+pnpm start:game
+```
