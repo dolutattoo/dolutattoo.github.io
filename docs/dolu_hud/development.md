@@ -1,0 +1,40 @@
+---
+sidebar_position: 4
+---
+
+# Development
+
+The next steps will require some knowledges but provides you all latest and experimental features.
+
+### Prerequisites
+- **[Git](https://git-scm.com/)**,
+- **[Node](https://nodejs.org/en/)** (LTS),
+- **[pnpm](https://pnpm.io/installation)**
+
+### Installing Dependencies & Setup
+Clone the repository into your resources folder with the name `dolu_hud`.
+```
+git clone https://github.com/dolutattoo/dolu_hud.git
+```
+
+Navigate to `dolu_hud/web` folder and install dependencies for NUI.
+
+```
+cd ./web
+```
+```
+pnpm i
+```
+
+### Building NUI
+
+To build the NUI, run this from `dolu_hud/web` folder:
+```
+pnpm build
+```
+
+### Watching files
+If you don't want to rebuild all the time, you can also watch files which will write to disk.
+```
+pnpm start:game
+```
