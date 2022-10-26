@@ -71,6 +71,10 @@ const config = {
             type: 'localeDropdown',
             position: 'right',
           },
+          // {
+          //   type: 'localeDropdown',
+          //   position: 'right',
+          // },
         ],
       },
       prism: {
