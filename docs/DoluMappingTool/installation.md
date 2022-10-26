@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Installation
 
-If you want to build the project yourself, you can refer to **[](http://localhost:3000/docs/DoluMappingTool/development)**
+If you want to build the project yourself, you can refer to **[Development](https://dolutattoo.github.io/docs/DoluMappingTool/development)**
 
 ## Downloads
 
