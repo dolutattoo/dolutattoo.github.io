@@ -48,7 +48,7 @@ const config = {
         title: 'Dolu scripts',
         logo: {
           alt: 'Dolu Logo',
-          src: 'img/LOGO_DOLUTATTOO_256.png',
+          src: 'img/logo_dolu.png',
         },
         items: [
           {
@@ -60,15 +60,16 @@ const config = {
           {
             href: 'https://dolu.tebex.io/',
             label: 'Store',
-            position: 'left',
+            position: 'right',
+          },
+          {
+            href: 'https://discord.gg/ZQn2m2A',
+            label: 'Discord',
+            position: 'right',
           },
           {
             href: 'https://github.com/dolutattoo/',
             label: 'GitHub',
-            position: 'left',
-          },
-          {
-            type: 'localeDropdown',
             position: 'right',
           },
           // {
