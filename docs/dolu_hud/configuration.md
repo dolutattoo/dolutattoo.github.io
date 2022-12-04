@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Configuration
@@ -14,6 +14,7 @@ Since `json` does not allow comments, here is the config description:
   "speedo": true, // Enable or disable Hud while in car
   "hideRadarOnFoot": true, // Enable or disable minimap while not in a vehicle
   "speedoMetrics": "kmh", // kmh or mph ?
+  "seatbeltKey": "K", // Toggle the seatbelt while in vehicle. Prevent player to fly trough windscreen.
   "setMaxHealth": true, // Force max player health to 200. Female and most of peds have less than 200 by default
   "colors": { // Colors can be found here: https://mantine.dev/theming/colors/#default-colors
     "health": "teal",
