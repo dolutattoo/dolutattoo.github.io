@@ -14,12 +14,12 @@ Les étapes suivantes vous demanderont certaines connaissances mais vous aurez a
 - **[pnpm](https://pnpm.io/installation)**
 
 ### Installation des dépendences & Mise en place
-Clonez le dépot git dans votre dossier resources sous le nom `DoluMappingTool`.
+Clonez le dépot git dans votre dossier resources sous le nom `dolu_tool`.
 ```
-git clone https://github.com/dolutattoo/DoluMappingTool.git
+git clone https://github.com/dolutattoo/dolu_tool.git
 ```
 
-Naviguez vers le dossier `DoluMappingTool/web` et installez les dépendances pour le NUI.
+Naviguez vers le dossier `dolu_tool/web` et installez les dépendances pour le NUI.
 
 ```
 cd ./web
@@ -30,7 +30,7 @@ pnpm i
 
 ### Compiler le NUI
 
-Pour compiler le NUI, executez cette commande depuis le dossier `DoluMappingTool/web`:
+Pour compiler le NUI, executez cette commande depuis le dossier `dolu_tool/web`:
 ```
 pnpm build
 ```

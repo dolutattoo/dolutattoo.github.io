@@ -4,21 +4,21 @@ sidebar_position: 1
 
 # Installation
 
-If you want to build the project yourself, you can refer to **[Development](https://dolutattoo.github.io/docs/DoluMappingTool/development)**
+If you want to build the project yourself, you can refer to **[Development](https://dolutattoo.github.io/docs/dolu_tool/development)**
 
 ## Downloads
 
 - **[ox_lib](https://github.com/overextended/ox_lib/releases/latest)** (required dependency!)
-- **[DoluMappingTool](https://github.com/dolutattoo/DoluMappingTool/releases/latest)**
+- **[ox_target](https://github.com/overextended/ox_target/releases/latest)** (optional)
+- **[dolu_tool](https://github.com/dolutattoo/dolu_tool/releases/latest)**
 
 ## Install
 
-- Unzip `ox_lib.zip` and `DoluMappingTool.zip` files,
-- Put `ox_lib` and `DoluMappingTool` folders into your `resources` folder,
+- Unzip `ox_lib.zip` and `dolu_tool.zip` files (and `ox_target` if you want it)
+- Put `ox_lib` and `dolu_tool` folders into your `resources` folder,
 - Add this to your `server.cfg` file:
-```
+```lua
   ensure ox_lib
-  ensure DoluMappingTool
+  ensure ox_target -- again, this one is optional
+  ensure dolu_tool
 ```
-
-You can now go to **[configuration](https://dolutattoo.github.io/docs/DoluMappingTool/configuration)**
