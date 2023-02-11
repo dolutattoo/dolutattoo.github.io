@@ -10,9 +10,7 @@ sidebar_position: 1
 
 - Client side only, won't affect server performances
 - Show minimap in vehicle only (configurable)
-- Hide statuses who are at 0 value 
-- Support using items from ox_inventory
-- Ignore statuses who are not in ox_statuses table
+- Hide statuses who are at 0 value
 - Vehicle Hud
 
 ## Hud elements
