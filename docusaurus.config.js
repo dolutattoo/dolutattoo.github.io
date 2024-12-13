@@ -28,7 +28,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:'https://github.com/dolu/dolu.github.io/tree/main/',
+          editUrl: 'https://github.com/dolu/dolu.github.io/tree/main/',
           showLastUpdateTime: true,
         },
         theme: {
@@ -53,7 +53,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'home',
             position: 'left',
             label: 'Documentation',
           },

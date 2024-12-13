@@ -6,8 +6,6 @@ sidebar_position: 3
 
 The next steps will require some knowledges but provides you all latest and experimental features.
 
-**You still need to install [ox_lib](https://github.com/overextended/ox_lib/releases/latest) dependency!**
-
 ### Prerequisites
 - **[Git](https://git-scm.com/)**,
 - **[Node](https://nodejs.org/en/)** (LTS),
@@ -36,7 +34,7 @@ pnpm build
 ```
 
 ### Watching files
-If you don't want to rebuild all the time, you can also watch files which will write to disk.
+If you don't want to rebuild all the time, you can also watch files which will write to disk on file save.
 ```
 pnpm start:game
 ```

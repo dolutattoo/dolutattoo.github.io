@@ -19,6 +19,17 @@ If you want to build the project yourself, you can refer to **[Development](http
 - Add this to your `server.cfg` file:
 ```lua
   ensure ox_lib
-  ensure ox_target -- again, this one is optional
+  ensure ox_target -- optional
+
   ensure dolu_tool
 ```
+
+## Permissions
+
+By default, everyone can use all the features of the tool.
+You can change this in the `config.lua` file.
+
+Set `Config.usePermission` to `true` to use the permission system.<br/>
+You can then set the permissions groups in the `Config.permissions` table.
+
+More information about ACE permissions can be found [here](https://forum.cfx.re/t/basic-aces-principals-overview-guide/90917).
